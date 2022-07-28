@@ -111,6 +111,7 @@ class _ScheduleScreenState extends State<ScheduleScreen> {
                   height: 30,
                 ),
                 taskBuilder(tasks: allTasks),
+                const SizedBox()
               ],
             ),
           ),
